@@ -1,0 +1,32 @@
+<!--pages/detail/detail.wxml-->
+<view class="item">
+    <view class="top">
+       <image class="pic" src="{{data.coverUrl}}{{data.picUrl}}"></image>
+       <!-- <image class="logo" src="/images/推荐电台.png"></image> -->
+       <view class="name">{{data.name}}</view>
+       <image class="musicIcon" src="/images/Music Icon.png"></image>
+       <text class="radioName">{{data.radio.name}}{{data.dj.nickname}} </text>
+       <button class="play" bind:tap="handleClick">播放</button>
+       <button class="mark">订阅<image class="star" src="/images/mark.png"></image></button>
+    </view>
+    <view class="btn">
+       <button class="like">
+          <image src="/images/赞.png"></image>({{data.likedCount}})
+       </button>
+       <button class="comment">
+          <image src="/images/评论.png"></image>({{data.commentCount}})
+       </button>
+       <button class="share">
+          <image src="/images/转发.png"></image>({{data.shareCount}})
+       </button>
+    </view>
+    <view class="desc">
+       <text class="type">{{data.radio.category}}{{data.category}}</text>
+       <text class="djname">{{data.name}}</text>
+       <text>第{{data.radio.programCount}}{{data.programCount}}期</text>
+    </view>
+    <view class="intro">
+       <text>介绍：{{data.description}}{{data.desc}}</text>
+    </view>
+    
+ </view>

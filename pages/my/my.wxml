@@ -1,0 +1,16 @@
+<!--pages/my/my.wxml-->
+<view class="container">
+    <view class="userImg">
+        <van-image round width="8rem" height="8rem" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+    </view>
+    <van-cell-group>
+        <van-field value="{{ username }}" required clearable label="用户名" icon="question-o" placeholder="请输入用户名"
+            bind:click-icon="onClickIcon" />
+
+        <van-field value="{{ password }}" type="password" label="密码" placeholder="请输入密码" required
+            border="{{ false }}" />
+    </van-cell-group>
+    <view class="btn">
+        <van-button round type="info" size="large" color="#9999CC">登录</van-button>
+    </view>
+</view>

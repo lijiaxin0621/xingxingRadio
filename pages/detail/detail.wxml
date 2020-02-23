@@ -1,0 +1,4 @@
+<!--pages/detail/detail.wxml-->
+<view class="container">
+   <v-detail data="{{item}}" wx:for="{{detail}}" wx:key="{{item.id}}"></v-detail>
+</view>

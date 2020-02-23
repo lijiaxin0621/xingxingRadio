@@ -1,0 +1,7 @@
+<!-- index.wxml -->
+<view class="container">
+   <image class="bg" src="../../images/scape.jpg"></image>
+    <view class="cover"></view>
+    <text class="btn">用声音陪伴你</text>
+    <button class="welcome" bind:tap="handleToggle">welcome</button>
+</view>

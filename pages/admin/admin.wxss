@@ -1,0 +1,40 @@
+/* pages/admin/admin.wxss */
+.swiperPic{
+    width:750rpx;
+    height:350rpx;
+}
+.hotDj{
+    font-size:40rpx;
+    color:#333;
+}
+.icon{
+    width:50rpx;
+    height: 50rpx;
+    margin-right: 20rpx;
+}
+.box{
+    padding: 20rpx;
+}
+.title{
+    display: flex;
+    padding: 10rpx 0;
+    border-bottom: 1px solid #333;
+}
+.title>text:nth-child(2){
+    flex-grow: 1;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.more{
+    font-size: 35rpx;
+    padding:5rpx;
+    color:#c20c0c;
+    border:1px solid #c20c0c;
+    border-radius: 20rpx;
+}
+.search{
+    margin-bottom:10rpx;
+}
