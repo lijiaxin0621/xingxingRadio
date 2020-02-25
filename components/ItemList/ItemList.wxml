@@ -1,6 +1,0 @@
-<!-- components/ItemList/ItemList.wxml -->
-<view class="item" bind:tap="handleClick">
-        <image class="pic" src="{{data.picUrl}}{{data.radio.picUrl}}{{data.program.radio.picUrl}}" alt=""></image>
-        <view class="desc">{{data.dj.signature}}{{data.radio.desc}}{{data.program.name}}</view>
-        <view class="name">by:{{data.name}}{{data.radio.name}}{{data.program.radio.name}}</view>
-</view>

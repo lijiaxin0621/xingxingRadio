@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "v-list":"/components/ItemList/ItemList",
-    "van-search": "/miniprogram_npm/@vant/weapp/search/index"
-  }
-}
